@@ -527,6 +527,17 @@ pip install -r requirements.txt</pre>
 
 ---
 
+## ⚠️ Diritti d'Autore
+
+<div style="background-color: #FFF5F5; padding: 20px; border-radius: 5px; margin-bottom: 20px; border-left: 4px solid #E53E3E;">
+  <h3>📝 Proprietà del Codice</h3>
+  <p><strong>Questo codice è di proprietà esclusiva dell'autore. Tutti i diritti sono riservati.</strong></p>
+  <p>Non è autorizzata alcuna copia, distribuzione, modifica o utilizzo del codice in qualsiasi forma senza esplicito consenso scritto del proprietario.</p>
+  <p>© 2025 SiNaPsE - Tutti i diritti riservati</p>
+</div>
+
+---
+
 ## 🆕 Aggiornamenti Recenti
 
 <div style="background-color: #fff0f5; padding: 20px; border-radius: 10px; margin: 20px 0;">
