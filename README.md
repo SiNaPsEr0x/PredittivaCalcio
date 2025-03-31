@@ -266,100 +266,6 @@
 
 ---
 
-## 🆕 Aggiornamenti Recenti
-
-<div style="background-color: #fff0f5; padding: 20px; border-radius: 10px; margin: 20px 0;">
-  <h3>📋 Versione 1.3.1 (Aprile 2025)</h3>
-  
-  <h4>🔄 Ottimizzazione Sistema di Fatica</h4>
-  <ul>
-    <li><strong>Rimozione di fattori specifici</strong>: Eliminato l'incremento automatico di fatica per squadre in competizioni europee</li>
-    <li><strong>Sistema più equo</strong>: La fatica viene ora calcolata in modo uniforme per tutte le squadre, basandosi solo su:
-      <ul>
-        <li>Valore base standard (0.3)</li>
-        <li>Dimensione della rosa (penalità per squadre con rose ristrette)</li>
-        <li>Densità del calendario (giorni dall'ultima partita)</li>
-        <li>Variabilità casuale (per simulare fattori imprevedibili)</li>
-      </ul>
-    </li>
-    <li><strong>Personalizzazione manuale</strong>: Possibilità di modificare i valori di fatica tramite la configurazione avanzata</li>
-  </ul>
-  
-  <h4>⚙️ Pulizia del Codice</h4>
-  <ul>
-    <li>Rimozione completa di riferimenti a competizioni specifiche nel calcolo della fatica</li>
-    <li>Migliorata la modularità del sistema per facilitare future personalizzazioni</li>
-    <li>Ristrutturazione dell'algoritmo per maggiore chiarezza e manutenibilità</li>
-  </ul>
-  
-  <h4>📊 Risultati</h4>
-  <ul>
-    <li>Predizioni più generalizzate e meno influenzate da fattori predefiniti</li>
-    <li>Maggiore personalizzazione del sistema in base alle esigenze specifiche dell'utente</li>
-    <li>Simulazione più realistica delle condizioni fisiche delle squadre durante la stagione</li>
-  </ul>
-</div>
-
-<div style="background-color: #f0fff0; padding: 20px; border-radius: 10px; margin: 20px 0;">
-  <h3>📋 Versione 1.3.0 (Aprile 2025)</h3>
-  
-  <h4>⚡ Sistema Avanzato di Fatica (Fatigue)</h4>
-  <ul>
-    <li><strong>Modello di fatica delle squadre</strong>: Implementato un sistema che simula l'affaticamento delle squadre durante la stagione</li>
-    <li><strong>Calcolo dinamico</strong>: La fatica viene calcolata considerando:
-      <ul>
-        <li>Dimensione della rosa (squadre con pochi giocatori accumulano più fatica)</li>
-        <li>Densità del calendario (partite ravvicinate aumentano la fatica fino al +20%)</li>
-        <li>Variabilità casuale per simulare fattori non prevedibili</li>
-      </ul>
-    </li>
-    <li><strong>Integrazione nelle predizioni</strong>: Il valore di fatica influisce direttamente sulle probabilità di risultato</li>
-    <li><strong>Penalità alla forza generale</strong>: Ogni reparto della squadra (attacco, centrocampo, difesa) subisce penalità in base al livello di fatica</li>
-  </ul>
-  
-  <h4>🔄 Propagazione dei Valori</h4>
-  <ul>
-    <li><strong>Visualizzazione nell'interfaccia</strong>: I valori di fatica sono ora visibili nei dettagli delle partite</li>
-    <li><strong>Correzione bug</strong>: Risolti problemi di propagazione dei valori di fatica nel flusso di predizione</li>
-    <li><strong>Logging migliorato</strong>: Dettagliati log della fatica per ogni squadra per analisi avanzate</li>
-  </ul>
-  
-  <h4>📊 Impatto sulle Previsioni</h4>
-  <ul>
-    <li>Migliorata l'accuratezza per le partite con squadre soggette ad impegni ravvicinati</li>
-    <li>Maggiore realismo nelle previsioni, specialmente per squadre impegnate su più fronti</li>
-    <li>Identificazione più precisa del calo di prestazioni nel periodo finale della stagione</li>
-  </ul>
-</div>
-
-<div style="background-color: #e8f4fd; padding: 20px; border-radius: 10px; margin: 20px 0;">
-  <h3>📋 Versione 1.2.0 (Marzo 2025)</h3>
-  
-  <h4>✅ Nuove Funzionalità</h4>
-  <ul>
-    <li><strong>Modello LSTM/GRU integrato</strong>: Aggiunta l'analisi di sequenze temporali per rilevare pattern nei risultati delle partite</li>
-    <li><strong>Preparazione sequenze di dati</strong>: Nuovo generatore di statistiche per sequenze con creazione automatica di features</li>
-    <li><strong>Training stabile</strong>: Migliorato il processo di addestramento con correzione degli errori e gestione robusta dei dati</li>
-  </ul>
-  
-  <h4>🛠️ Miglioramenti Tecnici</h4>
-  <ul>
-    <li><strong>Robustezza ai dati mancanti</strong>: Sistema resiliente che genera automaticamente le features necessarie</li>
-    <li><strong>Gestione percorsi</strong>: Risolti problemi di percorsi duplicati e riferimenti errati ai dati</li>
-    <li><strong>Validazione incrociata</strong>: Migliorato il processo di divisione train/validation con permutazione casuale</li>
-    <li><strong>Logging avanzato</strong>: Aggiunto logging dettagliato delle dimensioni dei dati e del processo di addestramento</li>
-  </ul>
-  
-  <h4>📊 Performance del Modello</h4>
-  <ul>
-    <li>Il modello LSTM/RF ha raggiunto un'accuratezza del 41.79% nei test iniziali</li>
-    <li>Integrazione graduale nell'ensemble con peso iniziale del 10% per garantire stabilità</li>
-    <li>Particolarmente efficace nell'identificare pattern ricorrenti e prevedere risultati basati sulla storia recente</li>
-  </ul>
-</div>
-
----
-
 <div align="center" style="margin-top: 30px; padding: 20px; background-color: #f8f9fa; border-radius: 10px;">
   <h2>⚽ <b>Predittiva Calcio</b> ⚽</h2>
   <p><i>Trasformare i dati in predizioni vincenti</i></p>
@@ -692,5 +598,125 @@
     <li>Generazione di report PDF professionali con tutte le previsioni</li>
     <li>Cronologia delle previsioni con metriche di accuratezza</li>
     <li>Statistiche aggregate per valutare le performance del sistema</li>
+  </ul>
+</div>
+
+---
+
+## 🆕 Aggiornamenti Recenti
+
+<div style="background-color: #fff0f5; padding: 20px; border-radius: 10px; margin: 20px 0;">
+  <h3>📋 Versione 1.3.3 (Maggio 2025)</h3>
+  
+  <h4>🛠️ Correzioni Tecniche</h4>
+  <ul>
+    <li><strong>Miglioramento gestione multithreading</strong>: Risolto il problema di rilevamento dei core fisici
+      <ul>
+        <li>Implementata funzione sicura per il conteggio dei core che evita errori di unpacking</li>
+        <li>Aggiunto parametro esplicito <code>num_threads</code> in LightGBM per controllare l'utilizzo delle risorse</li>
+        <li>Implementate variabili d'ambiente <code>LOKY_MAX_CPU_COUNT</code> e <code>OMP_NUM_THREADS</code> nel batch di avvio</li>
+      </ul>
+    </li>
+    <li><strong>Ottimizzazione file batch</strong>: Migliorato script di avvio
+      <ul>
+        <li>Aggiunta attivazione automatica dell'ambiente virtuale</li>
+        <li>Configurazione delle variabili d'ambiente per il controllo dei thread</li>
+        <li>Migliorata robustezza generale del processo di avvio</li>
+      </ul>
+    </li>
+  </ul>
+  
+  <h4>💼 Benefici</h4>
+  <ul>
+    <li>Eliminati messaggi di avviso relativi al rilevamento dei core fisici</li>
+    <li>Processo di addestramento più stabile, specialmente per il classificatore di pareggi</li>
+    <li>Avvio semplificato dell'applicazione con un solo click sul file batch</li>
+  </ul>
+</div>
+
+<div style="background-color: #fff0f5; padding: 20px; border-radius: 10px; margin: 20px 0;">
+  <h3>📋 Versione 1.3.2 (Aprile 2025)</h3>
+  
+  <h4>🛠️ Miglioramenti Generali</h4>
+  <ul>
+    <li><strong>Ottimizzazione dei processi</strong>: Riduzione dei messaggi diagnostici non necessari durante l'addestramento dei modelli
+      <ul>
+        <li>Sistema più silenzioso con minor output di debug</li>
+        <li>Gestione migliorata dei dati durante la fase di addestramento</li>
+        <li>Migliorata leggibilità dei log di sistema</li>
+      </ul>
+    </li>
+    <li><strong>Miglioramento Classificatore Pareggi</strong>: Ottimizzazione del modello specializzato
+      <ul>
+        <li>Performance migliorate con focus sulla massimizzazione del rilevamento</li>
+        <li>Soglia decisionale ottimizzata per massimizzare l'identificazione dei pareggi</li>
+        <li>Migliorata la gestione del bilanciamento dei dati di addestramento</li>
+      </ul>
+    </li>
+  </ul>
+  
+  <h4>💼 Benefici</h4>
+  <ul>
+    <li>Output di sistema più pulito e leggibile durante l'addestramento</li>
+    <li>Rilevamento più accurato dei pareggi</li>
+    <li>Processo di addestramento più stabile e meno soggetto a errori</li>
+  </ul>
+</div>
+
+<div style="background-color: #fff0f5; padding: 20px; border-radius: 10px; margin: 20px 0;">
+  <h3>📋 Versione 1.3.1 (Aprile 2025)</h3>
+  
+  <h4>🔄 Ottimizzazione Sistema di Fatica</h4>
+  <ul>
+    <li><strong>Rimozione di fattori specifici</strong>: Eliminato l'incremento automatico di fatica per squadre in competizioni europee</li>
+    <li><strong>Sistema più equo</strong>: La fatica viene ora calcolata in modo uniforme per tutte le squadre, basandosi solo su:
+      <ul>
+        <li>Valore base standard (0.3)</li>
+        <li>Dimensione della rosa (penalità per squadre con rose ristrette)</li>
+        <li>Densità del calendario (giorni dall'ultima partita)</li>
+        <li>Variabilità casuale (per simulare fattori imprevedibili)</li>
+      </ul>
+    </li>
+    <li><strong>Personalizzazione manuale</strong>: Possibilità di modificare i valori di fatica tramite la configurazione avanzata</li>
+  </ul>
+  
+  <h4>⚙️ Pulizia del Codice</h4>
+  <ul>
+    <li>Rimozione completa di riferimenti a competizioni specifiche nel calcolo della fatica</li>
+    <li>Migliorata la modularità del sistema per facilitare future personalizzazioni</li>
+    <li>Ristrutturazione dell'algoritmo per maggiore chiarezza e manutenibilità</li>
+  </ul>
+  
+  <h4>📊 Risultati</h4>
+  <ul>
+    <li>Predizioni più generalizzate e meno influenzate da fattori predefiniti</li>
+    <li>Maggiore personalizzazione del sistema in base alle esigenze specifiche dell'utente</li>
+    <li>Simulazione più realistica delle condizioni fisiche delle squadre durante la stagione</li>
+  </ul>
+</div>
+
+<div style="background-color: #e8f4fd; padding: 20px; border-radius: 10px; margin: 20px 0;">
+  <h3>📋 Versione 1.2.0 (Marzo 2025)</h3>
+  
+  <h4>✅ Nuove Funzionalità</h4>
+  <ul>
+    <li><strong>Modello LSTM/GRU integrato</strong>: Aggiunta l'analisi di sequenze temporali per rilevare pattern nei risultati delle partite</li>
+    <li><strong>Preparazione sequenze di dati</strong>: Nuovo generatore di statistiche per sequenze con creazione automatica di features</li>
+    <li><strong>Training stabile</strong>: Migliorato il processo di addestramento con correzione degli errori e gestione robusta dei dati</li>
+  </ul>
+  
+  <h4>🛠️ Miglioramenti Tecnici</h4>
+  <ul>
+    <li><strong>Robustezza ai dati mancanti</strong>: Sistema resiliente che genera automaticamente le features necessarie</li>
+    <li><strong>Gestione percorsi</strong>: Risolti problemi di percorsi duplicati e riferimenti errati ai dati</li>
+    <li><strong>Validazione incrociata</strong>: Migliorato il processo di divisione train/validation con permutazione casuale</li>
+    <li><strong>Logging avanzato</strong>: Aggiunto logging dettagliato delle dimensioni dei dati e del processo di addestramento</li>
+  </ul>
+  
+  <h4>📊 Performance del Modello</h4>
+  <ul>
+    <li>Il modello LSTM/RF ha raggiunto un'accuratezza del 41.79% nei test iniziali</li>
+    <li>Integrazione graduale nell'ensemble con peso iniziale del 10% per garantire stabilità</li>
+    <li>Particolarmente efficace nell'identificare pattern ricorrenti e prevedere risultati basati sulla storia recente</li>
   </ul>
 </div>
