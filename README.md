@@ -20,7 +20,7 @@
   <p><strong>Predittiva Calcio</strong> è un sistema di analisi predittiva all'avanguardia, sviluppato per offrire previsioni accurate sui risultati delle partite di Serie A. A differenza dei sistemi tradizionali, il nostro approccio sfrutta algoritmi avanzati di machine learning per eccellere nella predizione del risultato più difficile: il pareggio.</p>
 </div>
 
-> 💡 **L'innovazione principale**: Il nostro sistema combina dati storici, statistiche dei giocatori, condizioni meteo e quote dei bookmaker in un unico modello ensemble ottimizzato, raggiungendo un'accuratezza del **72.8%** sui risultati generali e una precisione sui pareggi del **53.6%** (rispetto al benchmark di settore del ~30%).
+> 💡 **L'innovazione principale**: Il mio sistema combina dati storici, statistiche dei giocatori, condizioni meteo e quote dei bookmaker in un unico modello ensemble ottimizzato, raggiungendo un'accuratezza del **72.8%** sui risultati generali e una precisione sui pareggi del **53.6%** (rispetto al benchmark di settore del ~30%).
 
 ---
 
