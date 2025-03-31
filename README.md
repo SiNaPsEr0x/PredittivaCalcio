@@ -23,3 +23,5 @@
 > 💡 **L'innovazione principale**: Il nostro sistema combina dati storici, statistiche dei giocatori, condizioni meteo e quote dei bookmaker in un unico modello ensemble ottimizzato, raggiungendo un'accuratezza del **72.8%** sui risultati generali e una precisione sui pareggi del **53.6%** (rispetto al benchmark di settore del ~30%).
 
 ---
+
+Per maggiori informazioni potete scrivermi...
