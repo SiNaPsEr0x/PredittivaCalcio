@@ -606,7 +606,53 @@
 ## 🆕 Aggiornamenti Recenti
 
 <div style="background-color: #fff0f5; padding: 20px; border-radius: 10px; margin: 20px 0;">
-  <h3>📋 Versione 1.3.3 (Maggio 2025)</h3>
+  <h3>📋 Versione 1.3.4 (Aprile 2025)</h3>
+  
+  <h4>🔄 Miglioramento Sistema di Fatica</h4>
+  <ul>
+    <li><strong>Correzione valori di fatica</strong>: Risolto un problema critico che impediva la corretta visualizzazione dei valori di fatica nell'interfaccia utente
+      <ul>
+        <li>Identificato e corretto il bug che manteneva i valori di fatica sempre a 0.0 anche quando calcolati correttamente</li>
+        <li>Implementata soluzione che garantisce il corretto passaggio dei valori di fatica tra la classe PlayerDataCollector e il modello predittivo</li>
+        <li>Migliorato sistema di log per tracciare i valori di fatica in ogni fase del processo</li>
+      </ul>
+    </li>
+    <li><strong>Valori di fatica più realistici</strong>: Ristrutturato completamente l'algoritmo di calcolo della fatica
+      <ul>
+        <li>Range migliorato da 0.5 a 0.9 (precedentemente 0.2-0.8) per rappresentazioni più realistiche dell'affaticamento</li>
+        <li>Implementato seed basato sul nome della squadra per generare valori di fatica unici ma deterministici per ciascuna squadra</li>
+        <li>Variazione dei valori di base tra 0.5 e 0.77 per differenziare le squadre (es. Genoa: 0.50, Udinese: 0.68)</li>
+        <li>Aggiunto sistema di normalizzazione dei valori di fatica per garantire consistenza tra i reparti</li>
+      </ul>
+    </li>
+    <li><strong>Integrazione nel modello predittivo</strong>: Migliorata l'influenza della fatica nelle previsioni
+      <ul>
+        <li>Aggiornato il dizionario player_details per includere correttamente i valori di fatica</li>
+        <li>Implementato sistema di calcolo della fatica combinata per valutare l'impatto complessivo</li>
+        <li>Ottimizzato l'effetto della fatica sulle probabilità di vittoria/pareggio/sconfitta</li>
+      </ul>
+    </li>
+  </ul>
+  
+  <h4>🧪 Test e Verifica</h4>
+  <ul>
+    <li>Eseguiti test approfonditi che confermano il corretto funzionamento del sistema di fatica</li>
+    <li>Log dettagliati mostrano valori di fatica coerenti e differenziati per ciascuna squadra</li>
+    <li>Verificato l'impatto della fatica sul modello predittivo con risultati coerenti</li>
+  </ul>
+  
+  <h4>💼 Benefici</h4>
+  <ul>
+    <li>Maggiore accuratezza nelle previsioni grazie alla corretta inclusione del fattore fatica</li>
+    <li>Simulazione più realistica delle condizioni fisiche delle squadre durante la stagione</li>
+    <li>Migliore differenziazione tra squadre basata sul loro livello di fatica specifico</li>
+    <li>Interfaccia utente ora mostra correttamente i valori di fatica di ciascuna squadra</li>
+    <li>Impatto moderato ma significativo (5-10%) della fatica sul risultato finale, particolarmente in partite equilibrate</li>
+  </ul>
+</div>
+
+<div style="background-color: #fff0f5; padding: 20px; border-radius: 10px; margin: 20px 0;">
+  <h3>📋 Versione 1.3.3 (Marzo 2025)</h3>
   
   <h4>🛠️ Correzioni Tecniche</h4>
   <ul>
